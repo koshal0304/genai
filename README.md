@@ -37,7 +37,25 @@ project-folder/
 Python 3.7+
 Google Gemini API Key
 Required Python packages 
-''' bash
-  install via pip install -r requirements.txt)
+Required Python packages (install via pip install -r requirements.txt)
+
+## 🛠️ Installation
+
+Clone the repository:
+
+git clone https://github.com/yourusername/genai.git
+cd genai
+
+Install the required packages:
+
+pip install -r requirements.txt
+
+Set up your Google Gemini API key:
+
+Replace the placeholder in objectdetection.py with your actual API key:
+
+GEMINI_API_KEY = "your-api-key-here"
+
+Or set it as an environment variable:
 
 
