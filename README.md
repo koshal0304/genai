@@ -51,6 +51,7 @@ project-folder/
 ## Usage
 1. Download Images from RTSP Streams
    Run the download script:
+   ```bash
    python downloadimages.py
 
 This will:
