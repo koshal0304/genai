@@ -43,12 +43,11 @@ project-folder/
    pip install -r requirements.txt
    
 4. Set up your Google Gemini API key:
-
    Replace API in objectdetection.py with your actual API key
-
    Or set it as an environment variable:
- 
-      export GEMINI_API_KEY="your-api-key-here"
+   export GEMINI_API_KEY="your-api-key-here"
+
+
 ## Usage
 1. Download Images from RTSP Streams
    Run the download script:
