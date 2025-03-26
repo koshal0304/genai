@@ -34,9 +34,10 @@ project-folder/
 🖼️ Image Previews with Analysis Overlay
 
 ## 📋 Prerequisites
-
 Python 3.7+
-
 Google Gemini API Key
+Required Python packages 
+''' bash
+  install via pip install -r requirements.txt)
 
-Required Python packages (install via pip install -r requirements.txt)
+
