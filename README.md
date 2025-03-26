@@ -6,17 +6,25 @@ A Python project that downloads images from RTSP streams and analyzes them for p
 project-folder/
 ├── objectdetection.py # Main script for object detection and analysis
 ├── downloadimages.py # Script to download images from RTSP links
+├── image_analysis_frontend.py # GUI interface 
 ├── all_cameras_images/ # Folder where downloaded images are stored
 └── compressed_images/ # Folder for compressed versions of images
 
 
 ## Features
+**Core Functionality**
+- RTSP stream image downloading
+- AI-powered phone usage detection
+- Multi-threaded image processing
+- Automatic image compression
 
-- Downloads images from multiple RTSP streams simultaneously
-- Compresses images for efficient processing
-- Uses Google Gemini AI to analyze images for phone usage
-- Provides detailed analysis with explanations
-- Multi-threaded processing for better performance
+**GUI Features** (NEW)
+- Interactive dashboard
+- Image preview grid
+- Real-time analysis progress
+- Results visualization
+- PDF/JSON report generation
+- Visual analytics (pie charts, histograms)
 
 ## Prerequisites
 
@@ -62,14 +70,27 @@ This will:
   Return detection results with explanations
   Print the analysis results to console
 
+3. Graphical Interface (NEW)
+   python image_analysis_frontend.py
+
+GUI Workflow:
+   Select image folder (contains camera images)
+   Choose compression folder
+   Click "Analyze Images"
+   View results in interactive table
+   Generate PDF reports or save as JSON
+   
+<img width="1440" alt="Screenshot 2025-03-26 at 1 15 19 PM" src="https://github.com/user-attachments/assets/854e46c0-a800-4b03-94c1-7175adaab017" />
+
+
 ## Configuration
   You can modify these parameters in the scripts:
-  In download_images.py:
+  In downloadimages.py:
      rtsp_urls: List of RTSP streams to monitor
      frame_interval: Number of frames between captures (default: 125)
      duration_seconds: Total duration to capture images (default: 300 seconds)
 
-  In analyze_images.py:
+  In objectdetection.py:
      image_folder: Path to folder containing images to analyze
      compress_folder: Path to folder for compressed images
      prompt: Customize the analysis prompt for Gemini AI
