@@ -53,7 +53,7 @@ def main():
         for i, uploaded_file in enumerate(uploaded_files[:4]):
             try:
                 img = Image.open(uploaded_file)
-                preview_cols[i].image(img, caption=uploaded_file.name, use_column_width=True)
+                preview_cols[i].image(img, caption=uploaded_file.name, use_container_width=True)
             except Exception as e:
                 st.error(f"Error loading preview image {uploaded_file.name}: {e}")
 
