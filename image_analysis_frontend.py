@@ -36,7 +36,7 @@ def save_uploaded_files(uploaded_files):
     return temp_dir
 
 def main():
-    st.set_page_config(page_title="Image Usage Analyzer", layout="wide")
+    st.set_page_config(page_title="Phone Usage Analyzer", layout="wide")
     
     # Title and description
     st.title("🖼️ Image Usage Analyzer")
