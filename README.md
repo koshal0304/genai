@@ -4,8 +4,8 @@ A Python project that downloads images from RTSP streams and analyzes them for p
 
 ## Project Structure
 project-folder/
-├── analyze_images.py # Main script for object detection and analysis
-├── download_images.py # Script to download images from RTSP links
+├── objectdetection.py # Main script for object detection and analysis
+├── downloadimages.py # Script to download images from RTSP links
 ├── all_cameras_images/ # Folder where downloaded images are stored
 └── compressed_images/ # Folder for compressed versions of images
 
@@ -28,8 +28,8 @@ project-folder/
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/rtsp-image-analyzer.git
-   cd rtsp-image-analyzer
+   git clone https://github.com/yourusername/genai.git
+   cd genai
 
 2. Install the required packages:
 
@@ -37,7 +37,7 @@ project-folder/
    
 4. Set up your Google Gemini API key:
 
-   Replace AIzaSyCd-p3gedQTCUt0w4unU6udoBHVevRvdXo in analyze_images.py with your actual API key
+   Replace API in objectdetection.py with your actual API key
 
    Or set it as an environment variable:
  
@@ -45,7 +45,7 @@ project-folder/
 ## Usage
 1. Download Images from RTSP Streams
    Run the download script:
-   python download_images.py
+   python downloadimages.py
 
 This will:
  Create an all_cameras_images folder
@@ -54,7 +54,7 @@ This will:
 
 2. Analyze Images for Phone Usage
  Run the analysis script:
- python analyze_images.py
+ python objectdetection.py
 
 This will:
   Compress images and save them in compressed_images folder
