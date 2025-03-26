@@ -18,13 +18,11 @@ project-folder/
 - Multi-threaded image processing
 - Automatic image compression
 
-**GUI Features** (NEW)
-- Interactive dashboard
-- Image preview grid
-- Real-time analysis progress
-- Results visualization
-- PDF/JSON report generation
-- Visual analytics (pie charts, histograms)
+ **Web Interface** (Streamlit)
+  - Drag-and-drop image upload
+  - Interactive visualizations (pie charts, histograms)
+  - Results export to JSON
+  - Image previews with analysis overlay
 
 ## Prerequisites
 
@@ -70,17 +68,16 @@ This will:
   Return detection results with explanations
   Print the analysis results to console
 
-3. Graphical Interface (NEW)
-   python image_analysis_frontend.py
+3. Web Interface 
+   streamlit run image_analysis_frontend.py
 
-GUI Workflow:
-   Select image folder (contains camera images)
-   Choose compression folder
-   Click "Analyze Images"
-   View results in interactive table
-   Generate PDF reports or save as JSON
-   
-<img width="1440" alt="Screenshot 2025-03-26 at 1 15 19 PM" src="https://github.com/user-attachments/assets/854e46c0-a800-4b03-94c1-7175adaab017" />
+
+
+   Workflow:
+   Upload images via drag-and-drop
+   View real-time analysis progress
+   Explore interactive visualizations
+   Export results as JSON
 
 
 ## Configuration
