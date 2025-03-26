@@ -35,11 +35,12 @@ project-folder/
 1. Clone this repository:
    ```bash
    git clone https://github.com/yourusername/genai.git
-   cd genai
+   cd genai pip install -r requirements.txt
 
-2. Install the required packages:
+2. Install the required packages: 
 
-    pip install -r requirements.txt
+     ```bash
+   pip install -r requirements.txt
    
 4. Set up your Google Gemini API key:
 
