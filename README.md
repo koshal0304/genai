@@ -11,9 +11,9 @@ project-folder/
 ├── all_cameras_images/         # Folder where downloaded images are stored
 └── compressed_images/          # Folder for compressed versions of images
 
-✨ Features
+## ✨ Features
 
-Core Functionality
+## Core Functionality
 
 📸 RTSP Stream Image Downloading
 
@@ -23,7 +23,7 @@ Core Functionality
 
 📏 Automatic Image Compression
 
-Web Interface (Streamlit)
+## Web Interface (Streamlit)
 
 📤 Drag-and-drop Image Upload
 
@@ -33,7 +33,7 @@ Web Interface (Streamlit)
 
 🖼️ Image Previews with Analysis Overlay
 
-📋 Prerequisites
+## 📋 Prerequisites
 
 Python 3.7+
 
