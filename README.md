@@ -1,15 +1,42 @@
-# RTSP Image Analyzer 📸📱
+RTSP Image Analyzer
 
-A Python solution for monitoring RTSP streams and detecting phone usage using Google's Gemini AI, featuring both CLI and Streamlit web interface.
+A Python project that downloads images from RTSP streams and analyzes them for phone usage detection using Google's Gemini AI.
 
-## Project Structure
+📂 Project Structure
 
-```bash
+project-folder/
+├── objectdetection.py          # Main script for object detection and analysis
+├── downloadimages.py           # Script to download images from RTSP links
+├── image_analysis_frontend.py  # GUI interface (Streamlit-based)
+├── all_cameras_images/         # Folder where downloaded images are stored
+└── compressed_images/          # Folder for compressed versions of images
 
-project-root/
-├── objectdetection.py          # Main analysis module
-├── downloadimages.py           # RTSP image downloader
-├── image_analysis_frontend.py  # Streamlit web interface
-├── all_cameras_images/         # Stores captured images
-└── compressed_images/          # Temporary compressed images
+✨ Features
 
+Core Functionality
+
+📸 RTSP Stream Image Downloading
+
+🤖 AI-Powered Phone Usage Detection (via Google Gemini AI)
+
+⚡ Multi-threaded Image Processing
+
+📏 Automatic Image Compression
+
+Web Interface (Streamlit)
+
+📤 Drag-and-drop Image Upload
+
+📊 Interactive Visualizations (Pie Charts, Histograms)
+
+📄 Results Export to JSON
+
+🖼️ Image Previews with Analysis Overlay
+
+📋 Prerequisites
+
+Python 3.7+
+
+Google Gemini API Key
+
+Required Python packages (install via pip install -r requirements.txt)
