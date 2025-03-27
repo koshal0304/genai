@@ -39,7 +39,7 @@ def main():
     st.set_page_config(page_title="Phone Usage Analyzer", layout="wide")
     
     # Title and description
-    st.title("🖼️ Image Usage Analyzer")
+    st.title("🖼️ Phone Usage Analyzer")
     st.markdown("Analyze your images and understand their context.")
 
     # File Upload
