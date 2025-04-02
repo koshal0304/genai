@@ -1,4 +1,4 @@
-RTSP Image Analyzer
+## RTSP Image Analyzer
 
 A Python project that downloads images from RTSP streams and analyzes them for phone usage detection using Google's Gemini AI.
 
