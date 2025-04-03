@@ -351,7 +351,7 @@ def main():
     <div class="css-card">
         <p class="staggered-item-1">Upload your smartphone screenshots and images to analyze your phone usage patterns and understand their context.</p>
         <p class="staggered-item-2">This tool uses advanced image recognition to identify how you use your phone.</p>
-        <p class="staggered-item-3"><span class="emoji">✨</span> New: Enhanced UI with interactive animations!</p>
+        <p class="staggered-item-3"><span class="emoji">✨</span> </p>
     </div>
     """, unsafe_allow_html=True)
 
