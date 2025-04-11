@@ -41,7 +41,7 @@ def compress_image(image_path, compress_folder):
         # Compress image
         with Image.open(image_path) as img:
             img = img.convert("RGB")
-            img.save(compressed_path, format="JPEG", quality=10)
+            img.save(compressed_path, format="JPEG", quality=70)
         
         return compressed_path
     except Exception as e:
